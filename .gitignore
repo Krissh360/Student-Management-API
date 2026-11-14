@@ -1,0 +1,35 @@
+# Maven build output
+target/
+
+# IDE metadata
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Visual Studio Code workspace state
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-*.local.properties
+*.secrets.properties
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
